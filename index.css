@@ -1,0 +1,72 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: blueviolet;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto 20px auto;
+}
+
+h2{
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal; 
+    color: black;
+
+}
+
+#India{
+    border: 10px solid gainsboro;
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    left:680px;
+    top:80px;
+}
+
+.image1{
+    background-image: url("high3.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2,.image3{
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2{
+    background-image: url("high2.jpg");
+    position: relative;
+    min-height: 400px;
+}
+
+.image3{
+    background-image: url("high1.jpg");
+    position: relative;
+    min-height: 400px;
+}
+
+.image4{
+    background-image: url("high3.jpg");
+    position: relative;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
